@@ -1,0 +1,33 @@
+.bg-blue{
+    background: blue;
+}
+.bg-dblue{
+    background: darkblue;
+}
+.h150{
+    height: 150px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    box-sizing: border-box;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.home{
+    width: 160px;
+    height: 320px;
+}
+.small{
+    width: 100px;
+}
+.header, .footer{
+    display: flex;
+    justify-content: space-between;
+}
