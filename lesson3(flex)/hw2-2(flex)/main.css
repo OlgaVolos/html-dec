@@ -1,0 +1,30 @@
+#container{
+    color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.header, .contact, .small{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    height: 100px;
+    background: blue;
+}
+.contact{
+    height: 450px;
+    background: blue;
+}
+.small{
+    height: 150px;
+    width: 150px;
+    background: darkblue;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
