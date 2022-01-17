@@ -1,0 +1,39 @@
+.container{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+.a, .b, .c, .f{
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a, .b, .c{
+    height: 100px;
+}
+.c{
+    width: 100px;
+}
+.f{
+    width: 100px;
+}
+.small{
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.bigger{
+    display: flex;
+    column-gap: 20px;
+
+
+}
