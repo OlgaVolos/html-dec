@@ -1,0 +1,30 @@
+div{
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    background: #ffaa01;
+    border: 2px solid silver;
+    margin: 50px;
+    text-align: center;
+    padding: 90px;
+}
+.block-one{
+    box-shadow: #46454a 20px 20px;
+}
+.block-two{
+    box-shadow: #46454a 20px 20px 5px;
+}
+.block-three{
+    box-shadow: #46454a 20px 20px 5px 5px;
+}
+.block-four{
+    box-shadow: #9d9e9e 20px 20px 5px 5px;
+}
+.block-five{
+    border-radius: 5px;
+    box-shadow: #46454a 20px 20px 5px;
+}
+.block-six{
+    border-radius: 5px;
+    box-shadow: #9d9e9e 20px 20px 5px;
+}
