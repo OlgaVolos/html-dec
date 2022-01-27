@@ -6,7 +6,6 @@
 }
 .container{
     display: flex;
-    height: max-content;
     column-gap: 10px;
 }
 .d-flex{
